@@ -1,9 +1,9 @@
 ---
 layout: post
-title: TBA, but something with Node.js!
+title: Verteilte Architektur mit Node.js
 date: 227-04-2016 20:00:00
 meetup: "http://www.meetup.com/Devsmeetup-Freiburg/"
-short: TBA
+short: "Netzwerkanwendungen zu entwickeln ist einfach: Es gibt einen Server, und es gibt Clients. Doch was, wenn es mehrere Server geben soll?"
 speaker:
   name: "Golo Roden"
   url: "https://twitter.com/goloroden"
@@ -14,4 +14,4 @@ location:
   url: http://www.gruenhof.org/
 ---
 
-TBA
+Netzwerkanwendungen zu entwickeln ist einfach: Es gibt einen Server, und es gibt Clients. Doch was, wenn es mehrere Server geben soll? Wie lässt sich ein solches System skalieren? Wie kommunizieren die Server dann untereinander? Um das Problem zu lösen, muss man verschiedene Ansätze kombinieren. Welche das sind, wie man das beispielhaft lösen kann, und worauf man aufpassen muss, erklärt Golo Roden in diesem Talk.
