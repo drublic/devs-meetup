@@ -21,11 +21,10 @@ kickstart for a discussion.
 
 ### Location
 
-[Grünhof](http://gruenhof.org/)
-[Karte](map.geojson))
+[Grünhof](http://gruenhof.org/) ([Map](map.geojson))
 
 
-### Sponsoren
+### Sponsors
 
 Thanks to our sponsors (drinks and location):
 
@@ -40,7 +39,7 @@ Thanks to our sponsors (drinks and location):
 [Reservix](https://www.reservix.net/) Ticketingsoftware für Veranstalter
 
 
-### Organisation
+### Organization
 
 | [![twitter/t3ndh](https://twitter.com/api/users/profile_image/t3ndh?size=bigger)](https://twitter.com/t3ndh "Folge @t3ndh auf Twitter") | [![twitter/sebastiansebald](https://twitter.com/api/users/profile_image/sebastiansebald?size=bigger)](https://twitter.com/sebastiansebald "Folge @sebastiansebald auf Twitter") | [![twitter/stmllr](https://twitter.com/api/users/profile_image/stmllr?size=bigger)](https://twitter.com/stmllr "Folge @stmllr auf Twitter") |
 |---|---|---|
