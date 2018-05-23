@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+
+  max-width: $contentWidth;
+  height: 100px;
+
+  padding: 30px $contentHorizontalPadding;
+  margin: 0 auto;
+}
+
+.header-logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.header-title {
+  padding: 0 10px;
+
+  font-size: scale(1);
+  font-weight: 300;
+  font-family: inherit;
+  letter-spacing: inherit;
+}
