@@ -1,14 +1,5 @@
 .teaser-container {
-  background: $brandDark;
-  background: linear-gradient(
-    30deg,
-    lighten($brandDark, 10%) 0%,
-    $brandDark 30%,
-    $brandDark 70%,
-    lighten($brandDark, 10%) 100%
-  );
-
-  color: $white;
+  @include content();
 }
 
 .teaser-loading {
@@ -23,7 +14,25 @@
   display: flex;
   flex-direction: column;
 
-  @include content(60px, 60px);
+  padding: 30px;
+  margin: 0 -20px;
+
+  color: $white;
+
+  background: $brandDark;
+  background: linear-gradient(
+    30deg,
+    lighten($brandDark, 10%) 0%,
+    $brandDark 30%,
+    $brandDark 70%,
+    lighten($brandDark, 10%) 100%
+  );
+
+  @include mq(sm) {
+    border-radius: 3px;
+    box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2),
+      0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+  }
 }
 
 .teaser-header {
@@ -51,6 +60,7 @@
 
   @include mq(sm) {
     font-size: scale(4);
+    padding-bottom: 16px;
   }
 }
 
@@ -68,12 +78,8 @@
 
   color: $brandLight;
   font-size: scale(1);
-  // font-weight: 600;
   text-decoration: none;
-  // text-transform: uppercase;
 
   border-radius: 3px;
   background: $brandComplement;
-  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-    0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }

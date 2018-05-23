@@ -48,7 +48,7 @@ $breakpoints: (
 }
 
 @mixin content($top: 20px, $bottom: 20px) {
-  max-width: 1000px;
+  max-width: map-get($breakpoints, md);
   padding: $top 20px $bottom;
   margin: 0 auto;
 
