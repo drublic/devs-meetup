@@ -48,7 +48,11 @@ $breakpoints: (
 }
 
 @mixin content($top: 20px, $bottom: 20px) {
-  max-width: $contentWidth;
-  padding: $top $contentHorizontalPadding $bottom;
+  max-width: 1000px;
+  padding: $top 20px $bottom;
   margin: 0 auto;
+
+  @include mq(sm) {
+    padding: $top 40px $bottom;
+  }
 }
