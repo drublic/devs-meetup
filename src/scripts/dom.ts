@@ -35,6 +35,6 @@ export const createTeaser = (meetup: MeetupEvent) =>
     <h2 class="teaser-name">${meetup.name}</h2>
     <div class="teaser-description">${meetup.description}</div>
     <div class="teaser-footer">
-      <a class="teaser-link" href="${meetup.link}">More info & RSVP</a>
+      <a class="teaser-link" href="${meetup.link}" rel="nofollow">RSVP</a>
     </div>
   </div>`;

@@ -1,17 +1,29 @@
 .header {
   display: flex;
 
-  max-width: $contentWidth;
-  height: 100px;
-
-  padding: 30px $contentHorizontalPadding;
-  margin: 0 auto;
+  @include content(20px, 30px);
 }
 
 .header-logo {
   display: flex;
-  flex: 1;
   align-items: center;
+  justify-content: center;
+  flex: 1;
+
+  height: 50px;
+
+  @include mq(xs) {
+    justify-content: inherit;
+    height: 60px;
+  }
+
+  > h1 {
+    display: none;
+
+    @include mq(xs) {
+      display: inherit;
+    }
+  }
 }
 
 .header-title {
