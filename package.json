@@ -12,10 +12,7 @@
     "parcel-bundler": "^1.7.1",
     "typescript": "^2.8.3"
   },
-  "dependencies": {
-    "fetch-jsonp": "^1.1.3",
-    "source-sans-pro": "git://github.com/adobe-fonts/source-sans-pro.git#release"
-  },
+  "dependencies": {},
   "scripts": {
     "start": "parcel src/index.html --open",
     "build": "parcel build src/index.html"
