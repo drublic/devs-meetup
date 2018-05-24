@@ -15,11 +15,15 @@ body {
   margin: 0;
   background-color: white;
 
-  color: $textColor;
+  color: lighten($textColor, 30%);
   font-size: $bodyFontSize;
   font-family: $fontFamilyBody;
   font-weight: 300;
   line-height: 1.618;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {

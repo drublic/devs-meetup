@@ -49,13 +49,13 @@ export const createTeaser = (meetup: MeetupEvent) => {
   return `
   <div class="teaser">
     <div class="teaser-caption">Upcoming Meetup</div>
-    <h2 class="teaser-name">${meetup.name}</h2>
-    <div class="teaser-meta">
+    <h2 class="teaser-title">${meetup.name}</h2>
+    <small class="teaser-meta">
       ${createCalendarIcon(12)}
       <span>${day} ${month}</span>
       ${createClockIcon(12)}
       <span>${meetup.local_time}</span>
-    </div>
+    </small>
     <div class="teaser-description">${meetup.description}</div>
     <div class="teaser-footer">
       <a class="teaser-link" href="${

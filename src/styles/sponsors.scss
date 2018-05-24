@@ -2,11 +2,15 @@
   @include box(30px, 30px);
 
   @include mq(sm) {
-    @include box(50px, 50px);
+    @include box(40px, 40px);
   }
   h4 {
     margin-top: 35px;
   }
+}
+
+.sponsors-caption {
+  font-size: scale(1);
 }
 
 .sponsors-list {
