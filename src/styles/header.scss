@@ -1,36 +1,19 @@
 .header {
-  display: flex;
-
-  @include content(20px, 30px);
+  @include box(30px, 20px);
 }
 
 .header-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
+  margin-left: 85%;
 
-  height: 50px;
-
-  @include mq(xs) {
-    justify-content: inherit;
-    height: 60px;
-  }
-
-  > h1 {
-    display: none;
-
-    @include mq(xs) {
-      display: inherit;
-    }
+  @include mq(sm) {
+    margin-left: 74%;
   }
 }
 
-.header-title {
-  padding: 0 10px;
+.header-image {
+  height: 50px;
 
-  font-size: scale(1);
-  font-weight: 300;
-  font-family: inherit;
-  letter-spacing: inherit;
+  @include mq(sm) {
+    height: 70px;
+  }
 }

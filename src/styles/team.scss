@@ -1,8 +1,8 @@
 .team {
-  @include content(30px, 30px);
+  @include box(30px, 30px);
 
   @include mq(sm) {
-    @include content(50px, 50px);
+    @include box(50px, 50px);
   }
 }
 
