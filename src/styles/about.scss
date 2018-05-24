@@ -13,8 +13,12 @@ $gutter: 30px;
 }
 
 .about-box {
-  flex: 1;
+  flex: 0 0 100%;
   margin-bottom: 40px;
+
+  @include mq(sm) {
+    flex: 1;
+  }
 }
 
 .about-content {
@@ -35,9 +39,13 @@ $gutter: 30px;
 }
 
 .about--when {
-  padding-right: $gutter;
+  @include mq(sm) {
+    padding-right: $gutter;
+  }
 }
 
 .about--where {
-  padding-left: $gutter;
+  @include mq(sm) {
+    padding-left: $gutter;
+  }
 }
