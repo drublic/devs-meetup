@@ -1,4 +1,4 @@
-import { createLoadingSpinner, createTeaser } from './dom';
+import { createTeaser } from './dom';
 import { RequestStatus, request } from './request';
 import { MeetupEvent } from './types';
 
@@ -11,7 +11,7 @@ request<[MeetupEvent]>(
 
     switch (ev.status) {
       case RequestStatus.Fetching:
-        content = createLoadingSpinner();
+        content = 'Loading ...';
         break;
       case RequestStatus.Success:
         content = createTeaser(ev.data[0]);
