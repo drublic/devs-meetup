@@ -5,9 +5,8 @@
 
   color: rgba($brand, 0.25);
   font-size: scale(-1);
-  border-top: 1px solid rgba($brand, 0.25);
 
-  @include box(15px, 20px);
+  @include box(0, 20px);
 
   a {
     color: $brand;
