@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "Website for Devsmeetup",
   "main": "src/index.html",
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "repository": "git@github.com:sebald/devsmeetup.github.io.git",
   "author": "Devsmeetup Orga",
   "license": "MIT",
