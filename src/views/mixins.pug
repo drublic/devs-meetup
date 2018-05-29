@@ -1,0 +1,7 @@
+mixin link(href)
+  if /https?\:|www\./.test(href)
+    a(href=href rel='nofollow' target='_blank')&attributes(attributes)
+      block
+  else
+    a(href=href)&attributes(attributes)
+      block
