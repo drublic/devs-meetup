@@ -18,17 +18,17 @@ const queryToString = o =>
     .join('&');
 
 const formatDate = value => {
-  const [month, day, year] = new Date(value)
+  const date = new Date(value);
+  const [month, day] = date
     .toLocaleDateString('en-US', {
       day: '2-digit',
       month: 'short',
-      year: 'numeric',
     })
     .split(' ');
   return {
     day,
     month,
-    year,
+    year: date.getFullYear(),
   };
 };
 
