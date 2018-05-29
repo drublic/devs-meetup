@@ -17,3 +17,13 @@ sponsors:
   - name: Nimius
     url: 'https://nimius.net/'
     image: imgs/nimius.svg
+team:
+  - name: Nico
+    url: http://www.ndh-websolutions.de/
+    image: imgs/nico.jpg
+  - name: Sebastian
+    url: https://twitter.com/sebastiansebald
+    image: imgs/sebastian.jpg
+  - name: Steffen
+    url: https://twitter.com/stmllr
+    image: imgs/steffen.jpg
