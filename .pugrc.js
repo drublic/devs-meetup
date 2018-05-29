@@ -1,3 +1,6 @@
+const { resolve } = require('path');
+const readConfig = require('read-config');
+
 const { MEETUP } = process.env;
 if (!MEETUP) {
   throw Error(
@@ -7,6 +10,10 @@ if (!MEETUP) {
 
 module.exports = {
   locals: {
+    // Get meetup data from ENV
     meetup: JSON.parse(MEETUP),
+
+    // Get site data from YAML
+    ...readConfig(resolve(__dirname, 'src/data.yml')),
   },
 };

@@ -1,0 +1,19 @@
+sponsors:
+  - name: Grünhof
+    url: 'https://www.gruenhof.org/'
+    image: imgs/gruenhof.png
+  - name: Patronas
+    url: 'https://www.patronas.com/'
+    image: imgs/patronas.png
+  - name: Inxmail
+    url: 'https://www.inxmail.de/'
+    image: imgs/inxmail.jpg
+  - name: Reservix
+    url: 'https://karriere.reservix.net/'
+    image: imgs/reservix.jpg
+  - name: Haufe Group
+    url: 'http://work.haufegroup.io/'
+    image: imgs/haufe.png
+  - name: Nimius
+    url: 'https://nimius.net/'
+    image: imgs/nimius.svg
