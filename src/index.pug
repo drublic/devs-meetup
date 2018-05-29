@@ -2,32 +2,7 @@ extends views/layout.pug
 
 block content
   include views/teaser/teaser.pug
-  section.about
-    .about-box.about--intro
-      .about-content
-        h3 Hi there!
-        p
-          | Welcome to the Devsmeetup Freiburg, a monthly hangout for technology and development enthusiasts.
-        p
-          | We cover a range of topics related to (software/hardware) development, project management and design. Exchange with
-          | like-minded people or just listen to the talk. We&apos;re looking forward to hearing from you and to see you at an upcoming
-          | event.
-    .about-box.about--when
-      .about-content
-        h3 When?
-        p Every month&apos;s last Wednesday at 8pm (except in July &amp; December).
-        p
-          | Checkout our
-          a(href='https://www.meetup.com/Devsmeetup-Freiburg/' rel='nofollow' target='_blank') Meetup
-          |  page for more information and RSVP.
-    .about-box.about--where
-      .about-content
-        h3 Where?
-        p
-          | We meet at the
-          a(href='https://goo.gl/maps/bwvEm4nmor42' rel='nofollow' target='_blank')
-            | Gr&uuml;nhof
-          | .
+  include views/about/about.pug
   section.social
     a.social-twitter(href='https://twitter.com/devsmeetup' rel='nofollow' target='_blank')
       svg(xmlns='http://www.w3.org/2000/svg')
