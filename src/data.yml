@@ -6,8 +6,8 @@ sponsors:
     url: 'https://www.patronas.com/'
     image: images/patronas.png
   - name: Inxmail
-    url: 'https://www.inxmail.de/'
-    image: images/inxmail.jpg
+    url: 'https://www.inxmail.de/unternehmen/karriere/entwickler'
+    image: images/inxmail.svg
   - name: Reservix
     url: 'https://karriere.reservix.net/'
     image: images/reservix.jpg
