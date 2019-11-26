@@ -18,6 +18,9 @@ sponsors:
     url: 'https://www.land-in-sicht.de/'
     image: images/land-in-sicht.svg
 team:
+  - name: Johannes
+    url: https://thej6s.com/
+    image: images/johannes.png
   - name: Nico
     url: http://www.ndh-websolutions.de/
     image: images/nico.jpg
@@ -25,5 +28,5 @@ team:
     url: https://twitter.com/sebastiansebald
     image: images/sebastian.jpg
   - name: Steffen
-    url: https://twitter.com/stmllr
+    url: https://stmllr.net/
     image: images/steffen.jpg
